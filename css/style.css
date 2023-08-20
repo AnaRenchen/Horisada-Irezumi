@@ -344,41 +344,24 @@ footer {
 
 /**Estilos pagina Contacto**/
 
-.contenedor_pagina_contacto {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    justify-content: space-between;
-    justify-items: center;
-    grid-template-areas:
-        'formulario direccion'
-        'formulario direccion';
-    margin-top: 50px;
-    margin-bottom: 100px;
-    column-gap: 20px;
-}
 
-.contenedor_formulario {
-    grid-area: formulario;
-    justify-self: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-
+.contenedor_formulario{
+    margin-left: 70px;
 }
 
 .contenedor_direccion {
-    grid-area: direccion;
     display: flex;
     flex-wrap: wrap;
     margin-right: 130px;
-
+    justify-self: center;
 }
 
-
+.row{
+    margin-bottom: 100px;
+}
 
 /** Estilos Formulario **/
-form {
+.form-label {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;

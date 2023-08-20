@@ -50,47 +50,63 @@
 
     <main>
         <h1 class="titulo_secciones"> Contacto </h1>
-        <p class="textos_pagina_contacto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, exercitationem quis.
+        <p class="textos_pagina_contacto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, exercitationem
+            quis.
             Saepe voluptate, id, nobis pariatur quibusdam architecto nisi nemo quidem maxime incidunt officiis doloribus
             necessitatibus, animi nesciunt ut reiciendis.</p>
 
-        <div class="contenedor_pagina_contacto">
-            <section class="contenedor_formulario">
-                <form action="" method="post">
-                    <label for="nombre"> Nombre y Apellido: </label>
-                    <input type="text" name="nombre" id="nombre" required>
+      
+          
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                    <div class="col">
+                        <div class="contenedor_formulario">
+                            <div class="mb-2">
+                                <label for="formGroupExampleInput" class="form-label">Nombre y Apellido:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder="Nombre y Apellido">
+                            </div>
+                            <div class="mb-2">
+                                <label for="formGroupExampleInput2" class="form-label">E-mail:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2"
+                                    placeholder="@ejemplo.com">
+                            </div>
+                            <div class="mb-2">
+                                <label for="formGroupExampleInput2" class="form-label">Número de Celular:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="++54">
+                            </div>
+                            <div class="mb-2">
+                                <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+                            <div class="mb-2">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
 
-                    <label for="email"> Email: </label>
-                    <input type="text" name="email" id="email" required>
+                    <div class="col">
+                        <section class="contenedor_direccion">
+                            <h2 class="subtitulo_direccion"> Dirección </h2>
+                            <p class="texto_direccion"> Ubicado a 2 cuadras de la estación Olivos del tren Mitre.
+                                Paradas de
+                                colectivos cercanas: 29, 168, 59. Se recomienda estacionar en el Puerto de Olivos.</p>
+                            <div class="contenedor_mapa">
 
-                    <label for="número de celular"> Número de Celular: </label>
-                    <input type="number" name="número de celular" id="número de celular" required>
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe class="embed-responsive-item"
+                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13151.132543261629!2d-58.4804352!3d-34.5083818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14186a798bb%3A0xfb675af147e75936!2sOlivos!5e0!3m2!1spt-BR!2sar!4v1691622893481!5m2!1spt-BR!2sar"
+                                        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
 
-                    <label for="Mensaje"> Mensaje: </label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                            </div>
 
-                    <input type="submit" id="Enviar">
-                </form>
-            </section>
-
-            <section class="contenedor_direccion">
-                <h2 class="subtitulo_direccion"> Dirección </h2>
-                <p class="texto_direccion"> Ubicado a 2 cuadras de la estación Olivos del tren Mitre. Paradas de
-                    colectivos cercanas: 29, 168, 59. Se recomienda estacionar en el Puerto de Olivos.</p>
-                <div class="contenedor_mapa">
-
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13151.132543261629!2d-58.4804352!3d-34.5083818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14186a798bb%3A0xfb675af147e75936!2sOlivos!5e0!3m2!1spt-BR!2sar!4v1691622893481!5m2!1spt-BR!2sar"
-                        width="600" height="400" style="border:0;"allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                      </div>
-                    
+                        </section>
+                    </div>
                 </div>
 
-            </section>
-        </div>
-        
-        
+        </section>
 
     </main>
 
