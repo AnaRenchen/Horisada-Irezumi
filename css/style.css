@@ -49,8 +49,8 @@ header img {
 
 .contenedor_index {
     display: flex;
-   justify-content: center;
-   align-content: center;
+    justify-content: center;
+    align-content: center;
 }
 
 
@@ -65,8 +65,8 @@ header img {
     height: auto;
     margin-top: 40px;
     margin-bottom: 20px;
-  text-align: center;
-  margin-left: 110px;
+    text-align: center;
+    margin-left: 110px;
 }
 
 .titulo_pagina {
@@ -433,7 +433,7 @@ iframe {
     max-height: 100%;
 }
 
-/** Estilo de la etiqueta para contacto**/
+/** Estilo de la etiqueta p para contacto**/
 
 .textos_pagina_contacto {
     color: #a26238;
@@ -442,10 +442,11 @@ iframe {
     letter-spacing: 0.1em;
     line-height: 1.5;
     margin-top: 20px;
-    margin-left: 80px;
-    margin-right: 150px;
     margin-bottom: 20px;
+    display: flex;
+   
     text-align: justify;
+    margin: 50px;
 }
 
 /** Regla Media query**/
@@ -561,7 +562,9 @@ iframe {
         margin: 1rem;
     }
 
-
+.textos_pagina_contacto{
+    margin: 1.5rem;
+}
 
 
 }
