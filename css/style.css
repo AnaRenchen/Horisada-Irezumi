@@ -220,7 +220,6 @@ footer {
 
 
 .carousel{
-    max-width: 80%;
     margin: auto;
 }
 
@@ -543,9 +542,6 @@ iframe {
         margin-bottom: 10px;
     }
 
-.carousel{
-    max-width: 100%;
-}
 
     .textos_pagina_info1,
     .textos_pagina_info2 {
