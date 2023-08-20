@@ -218,18 +218,10 @@ footer {
 
 /** Estilos de las secciones de la Galeria**/
 
-.carousel {
-    max-width: 60%;
-    /* Reducir el ancho máximo del carrusel */
-    margin: 0 auto;
-    /* Centrar el carrusel en la página */
-}
 
-.carousel-inner img {
-    max-width: 100%;
-    /* Reducir el ancho máximo de las imágenes */
-    height: auto;
-    /* Mantener la proporción de aspecto */
+.carousel{
+    max-width: 80%;
+    margin: auto;
 }
 
 .subtitulos_galerias {
@@ -467,12 +459,7 @@ iframe {
 
     }
 
-    .carousel {
-        max-width: 100%;
-        /* Reducir el ancho máximo del carrusel */
-        margin: 0 auto;
-        /* Centrar el carrusel en la página */
-    }
+   
 
     .contenedor_info {
         display: flex;
@@ -556,6 +543,9 @@ iframe {
         margin-bottom: 10px;
     }
 
+.carousel{
+    max-width: 100%;
+}
 
     .textos_pagina_info1,
     .textos_pagina_info2 {
@@ -565,6 +555,13 @@ iframe {
 .textos_pagina_contacto{
     margin: 1.5rem;
 }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .logo_inicio{
+        margin-left: 120px;
+    }
 
 
 }
