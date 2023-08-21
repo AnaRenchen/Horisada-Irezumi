@@ -214,8 +214,7 @@ footer {
 
 /** Estilos de las secciones de la Galeria**/
 
-
-.carousel {
+.carousel{
     margin: auto;
 }
 
@@ -534,9 +533,12 @@ iframe {
         color: #dc9e79;
     }
 
-    .menu_index {
-        margin-top: 30px;
+    .contenedor_index {
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
+
+
 
 
     footer {
