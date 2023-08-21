@@ -66,8 +66,7 @@ header img {
     justify-content: center;
 }
 .logo_inicio {
-    width: 120px;
-    height: auto;
+    width: 7.8rem;
     margin-top: 40px;
     margin-bottom: 20px;
 }
@@ -513,7 +512,6 @@ iframe {
         flex-wrap: wrap;
         justify-content: center;
     }
-
 
 
     .contenedor_direccion {
