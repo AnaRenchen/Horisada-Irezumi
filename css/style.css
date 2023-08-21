@@ -280,6 +280,10 @@ footer {
     margin-top: 20px;
 }
 
+.row{
+    margin-bottom: 100px;
+}
+
 /** Estilos Informacion**/
 
 .contenedor_info {
@@ -339,9 +343,9 @@ footer {
     grid-template-areas:
         "formulario direccion"
         "formulario direccion";
-    justify-content:center;
+    justify-content: center;
     justify-items: center;
-    background-color:#a26238;
+    background-color: #a26238;
     padding: 40px;
     margin-top: 80px;
     margin-bottom: 50px;
@@ -369,9 +373,9 @@ footer {
     grid-area: formulario;
     justify-self: center;
     align-self: center;
-    background-color:black;
-padding: 20px;
-border: 0.2rem solid #5c3011;
+    background-color: black;
+    padding: 20px;
+    border: 0.2rem solid #5c3011;
 }
 
 .subtitulo_formulario {
@@ -397,7 +401,7 @@ textarea {
 
 label {
     font-family: 'Times New Roman', Times, serif;
-    color:#a26238;
+    color: #a26238;
     font-size: 1rem;
     padding: 10px 10px 10px 0;
 }
@@ -418,8 +422,8 @@ button {
     float: right;
 }
 
-button:hover{
-    background-color:antiquewhite;
+button:hover {
+    background-color: antiquewhite;
 }
 
 /** Estilos apartado Direccion**/
@@ -428,10 +432,10 @@ button:hover{
     grid-area: direccion;
     justify-self: center;
     align-self: center;
-background-color:black;
-padding: 15px;
-border: 0.2rem solid #5c3011;
-margin-right: 50px;
+    background-color: black;
+    padding: 15px;
+    border: 0.2rem solid #5c3011;
+    margin-right: 50px;
 }
 
 .subtitulo_direccion {
@@ -448,7 +452,8 @@ margin-right: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: #a26238;;
+    color: #a26238;
+    ;
     text-align: justify;
     margin-bottom: 20px;
     flex-wrap: wrap;
@@ -461,13 +466,13 @@ iframe {
 }
 
 /** Estilos Instagram bottom contactos**/
-.instagram_contacto{
+.instagram_contacto {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.logo_insta_contacto{
+.logo_insta_contacto {
     width: 100px;
 }
 
@@ -558,7 +563,7 @@ iframe {
         margin: 1.5rem;
     }
 
-    .contenedor_direccion{
+    .contenedor_direccion {
         margin-right: 0;
     }
 }
