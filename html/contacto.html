@@ -18,6 +18,8 @@
 
 <body class="body_color">
     <header>
+
+        <!-- Zona navegable comun a todas las páginas -->
         <nav class="navbar navbar-expand-md bg-santi">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../images/logo_header.PNG" alt=""></a>
@@ -55,68 +57,54 @@
             Saepe voluptate, id, nobis pariatur quibusdam architecto nisi nemo quidem maxime incidunt officiis doloribus
             necessitatibus, animi nesciunt ut reiciendis.</p>
 
-      
-          
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
-                    <div class="col">
-                        <div class="contenedor_formulario">
-                            <div class="mb-2">
-                                <label for="formGroupExampleInput" class="form-label">Nombre y Apellido:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput"
-                                    placeholder="Nombre y Apellido">
-                            </div>
-                            <div class="mb-2">
-                                <label for="formGroupExampleInput2" class="form-label">E-mail:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2"
-                                    placeholder="@ejemplo.com">
-                            </div>
-                            <div class="mb-2">
-                                <label for="formGroupExampleInput2" class="form-label">Número de Celular:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="++54">
-                            </div>
-                            <div class="mb-2">
-                                <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                            </div>
-                            <div class="mb-2">
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col">
-                        <section class="contenedor_direccion">
-                            <h2 class="subtitulo_direccion"> Dirección </h2>
-                            <p class="texto_direccion"> Ubicado a 2 cuadras de la estación Olivos del tren Mitre.
-                                Paradas de
-                                colectivos cercanas: 29, 168, 59. Se recomienda estacionar en el Puerto de Olivos.</p>
-                            <div class="contenedor_mapa">
+        <div class="grid_contacto">
 
-                                <div class="embed-responsive embed-responsive-4by3">
-                                    <iframe class="embed-responsive-item"
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13151.132543261629!2d-58.4804352!3d-34.5083818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14186a798bb%3A0xfb675af147e75936!2sOlivos!5e0!3m2!1spt-BR!2sar!4v1691622893481!5m2!1spt-BR!2sar"
-                                        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </div>
+            <!-- Formulario de contacto-->
+            <form class="formulario">
+                <h2 class="subtitulo_formulario"> Contactame</h2>
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" name="nombre" placeholder="Nombre y Apellido">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" placeholder="Email">
+                <label for="celular">Número de Celular:</label>
+                <input type="text" name="celular" placeholder="Número de Celular">
+                <label for="mensaje">Deje su mensaje:</label>
+                <textarea name="mensaje" placeholder="Escriba aquí su mensaje" cols="30" rows="10"></textarea>
+                <div class="button">
+                    <button type="submit"> Enviar</button>
+                </div>
+            </form>
 
-                            </div>
-
-                        </section>
+            <!-- Dirección con iframe -->
+            <section class="contenedor_direccion">
+                <h2 class="subtitulo_direccion"> Dirección </h2>
+                <p class="texto_direccion"> Ubicado a 2 cuadras de la estación Olivos del tren Mitre.
+                    Paradas de
+                    colectivos cercanas: 29, 168, 59. Se recomienda estacionar en el Puerto de Olivos.</p>
+                <div class="contenedor_mapa">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13151.132543261629!2d-58.4804352!3d-34.5083818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14186a798bb%3A0xfb675af147e75936!2sOlivos!5e0!3m2!1spt-BR!2sar!4v1691622893481!5m2!1spt-BR!2sar"
+                            width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
+            </section>
+        </div>
 
-        </section>
-
+        <div class="instagram_contacto">
+        <a class="logo_insta_link" href="https://www.instagram.com/santuhorisada/" target="_blank">
+            <img class="logo_insta_contacto" src="../images/logo_insta_blanco.png" alt=" Logo de Instagram"></a>
+        </div>
     </main>
 
-
+    <!--Footer de todas las paginas-->
     <footer>
         <p class="footer_letter"> Diseñado por Ana Maria Magalhães 2023 &copy; </p>
         <a class="logo_insta_link" href="https://www.instagram.com/santuhorisada/" target="_blank">
             <img class="logo_insta" src="../images/instagram_logo.png" alt=" Logo de Instagram"></a>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
