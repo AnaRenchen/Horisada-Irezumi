@@ -60,13 +60,16 @@ header img {
     margin-bottom: 50px;
 }
 
+.contenedor_logo_inicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .logo_inicio {
     width: 120px;
     height: auto;
     margin-top: 40px;
     margin-bottom: 20px;
-    text-align: center;
-    margin-left: 110px;
 }
 
 .titulo_pagina {
@@ -568,10 +571,3 @@ iframe {
     }
 }
 
-@media only screen and (max-width: 576px) {
-
-    .logo_inicio {
-        margin-left: 120px;
-    }
-
-}
