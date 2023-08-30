@@ -1,0 +1,26 @@
+
+//Import
+
+//Base
+@import "../scss/base/_reset.scss";
+@import "../scss/base/titulos";
+
+//Layout
+@import "../scss/layout/header";
+@import "../scss/layout/portada_index";
+@import "../scss/layout/footer";
+@import "../scss/layout/portada_galerias_estilo";
+@import "../scss/layout/secciones_galerias_estilo";
+@import "../scss/layout/estilos_shop";
+@import "../scss/layout/estilos_informacion";
+@import "../scss/layout/estilos_contacto";
+@import "../scss/layout/contenedor_direccion";
+
+//Components
+@import "../scss/components/cards_shop";
+@import "../scss/components/formulario_contacto";
+@import "../scss/components/iframe";
+
+//Media Query
+@import "../scss/media_query/max_width_1024px";
+@import "../scss/media_query/max_width_768px";

@@ -1,0 +1,73 @@
+
+// Disposicion pagina Contacto
+
+.grid_contacto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "formulario direccion"
+        "formulario direccion";
+    justify-content: center;
+    justify-items: center;
+    background-color: #a26238;
+    padding: 40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+//Estilo de la etiqueta p para contacto
+
+main{
+    .textos_pagina_contacto {
+        color: #a26238;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+        letter-spacing: 0.1em;
+        line-height: 1.5;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        text-align: justify;
+        margin: 50px;
+    }
+}
+
+/** Estilos Instagram bottom contactos**/
+
+.instagram_contacto {
+    display: flex;
+     justify-content: center;
+     margin-bottom: 50px;
+
+     .bottom_contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo_insta_contacto {
+        width: 100px;
+        margin-bottom: 20px;  
+    }
+
+    .direccion_logo{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .location_bottom{
+        font-size: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        margin-bottom: 50px;
+    
+    }
+ }
+ 
+
+ 
+ 
+ 

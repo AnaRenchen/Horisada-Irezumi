@@ -1,0 +1,32 @@
+//Estilo Zona Navegable comun a todas las paginas
+
+header {
+    background-color: #5c3011;
+    margin-bottom: 10px;
+
+    img{
+        width: 6rem; 
+    }
+    
+    .navbar{
+        .bg-santi {
+            background-color: #5c3011;
+        }
+        
+        .navbar-nav {
+            margin-left: auto;
+        }
+            .nav-link{
+                color: white;
+                text-decoration: none;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.2rem;
+                margin: 0.8rem;
+
+                &:hover {
+                    color: #dc9e79;
+                }
+            }
+    
+}
+}

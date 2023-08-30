@@ -1,0 +1,36 @@
+//Estilos de las secciones de la Galeria
+
+.carousel{
+    margin: auto;
+}
+
+#backpiece, #mangas, #otros  {
+    .subtitulos_galerias {
+        font-size: 2.5rem;
+        color: black;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+
+}
+#backpiece {
+    background-color: #b47b57;
+    padding: 80px;
+    padding-top: 20px;
+}
+
+#mangas {
+    background-color: #c59476;
+    padding: 80px;
+    padding-top: 20px;
+}
+
+#otros {
+    background-color: #d5ae97;
+    padding: 80px;
+    padding-top: 20px;
+}

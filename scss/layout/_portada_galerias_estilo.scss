@@ -1,0 +1,63 @@
+.portadas_galeria_contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 16rem 16rem;
+    justify-items: center;
+    align-items: bottom;
+    text-align: center;
+   
+    grid-template-areas:
+        'backpiece mangas otros'
+        'backpiece mangas otros';
+
+
+        .disposicion_portadas_galeria_backpiece {
+            grid-area: backpiece;
+        }
+
+        .disposicion_portadas_galeria_mangas {
+            grid-area: mangas;
+        }
+
+        .disposicion_portadas_galeria_otros {
+            grid-area: otros;
+        }
+    
+    .portada_galeria {
+        width: 80%;
+        margin-left: 30px;
+        margin-right: 30px;
+        border: solid #462510;
+        border-radius: 10px;
+        background-color: #a26238;
+        align-items: center;
+
+        &:hover {
+            padding: 5px;
+    }
+}
+.descripcion_portadas {
+font-size: 1.3rem;
+color: #a26238;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+margin-top: 5px;
+letter-spacing: 0.1em;
+
+&:hover {
+    color: #dc9e79;
+}
+}
+//Estilos de las portadas de las secciones de la galeria
+
+.disposicion_portadas_galeria_backpiece,
+.disposicion_portadas_galeria_mangas,
+.disposicion_portadas_galeria_otros {
+margin-top: 20px;
+margin-bottom: 50px;
+
+a{
+    text-decoration: none;
+}
+}
+}

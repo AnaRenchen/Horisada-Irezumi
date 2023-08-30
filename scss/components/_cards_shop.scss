@@ -1,0 +1,15 @@
+//Cards de articulos a la venta
+.row{
+    .col{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center; 
+
+
+        .card {
+            margin: 50px;
+
+    }
+}
+}

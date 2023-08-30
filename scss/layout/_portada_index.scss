@@ -1,0 +1,45 @@
+.contenedor_index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+
+    .items_index {
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        margin-bottom: 50px;
+        text-align: center;
+
+        .logo_inicio {
+            width: 7.8rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .titulo_pagina {
+            color: #debeab;
+            font-size: 1.5rem;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 0.1em;
+            font-weight: lighter;
+            line-height: 1.2;
+        }
+
+        .sutitulo_pagina {
+            color: #a26238;
+            font-family: 'Sawarabi Mincho', serif;
+            font-size: 1.2rem;
+            font-weight: lighter;
+            letter-spacing: 0.3em;
+            line-height: 1.2;
+        }
+        .descripcion_inicio {
+            color: #a26238;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1rem;
+            letter-spacing: 0.1em;
+            line-height: 1.2;
+        }
+    }
+}
