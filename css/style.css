@@ -189,17 +189,6 @@ footer .logo_insta {
   padding-top: 20px;
 }
 
-.row {
-  margin-bottom: 100px;
-}
-.row .col .card .card-body {
-  background-color: #b47b57;
-}
-.row .col .card .card-body .card-text {
-  color: #462510;
-  font-family: "Times New Roman", Times, serif;
-}
-
 .textos_pagina_shop {
   text-align: center;
   color: #a26238;
@@ -323,6 +312,9 @@ main .textos_pagina_contacto {
   flex-wrap: wrap;
 }
 
+.row {
+  margin-bottom: 100px;
+}
 .row .col {
   display: flex;
   flex-wrap: wrap;
@@ -331,6 +323,13 @@ main .textos_pagina_contacto {
 }
 .row .col .card {
   margin: 50px;
+}
+.row .col .card .card-body {
+  background-color: #b47b57;
+}
+.row .col .card .card-body .card-text {
+  color: #462510;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .grid_contacto .formulario {
