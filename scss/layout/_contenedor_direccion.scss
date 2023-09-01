@@ -1,0 +1,30 @@
+//Estilos apartado Direccion
+
+.contenedor_direccion {
+    grid-area: direccion;
+    justify-self: center;
+    align-self: center;
+    background-color: black;
+    padding: 15px;
+    border: 0.2rem solid #5c3011;
+    margin-right: 50px;
+
+    .subtitulo_direccion {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        color: #a26238;
+        font-weight: 500;
+        line-height: 2;
+        text-align: center;
+    
+    }
+    .texto_direccion {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #a26238;
+        text-align: justify;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,57 @@
+// Media query max-width: 768px
+
+
+@media only screen and (max-width: 768px) {
+
+    .navbar{
+
+    .navbar-nav {
+        background-color: black;
+    }
+
+    .nav-link {
+        border-bottom: solid white;
+
+        &:hover {
+            color: #dc9e79;
+        }
+    }
+        
+    }
+
+    .contenedor_index {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+
+
+    footer {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+        .logo_insta {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .footer_letter {
+            margin-bottom: 10px;
+        }
+    }
+
+.contenedor_direccion{
+    .textos_pagina_info1,
+    .textos_pagina_info2 {
+        margin: 1rem;
+    }
+
+    .textos_pagina_contacto {
+        margin: 1.5rem;
+    }
+}
+    .contenedor_direccion {
+        margin-right: 0;
+    }
+
+}

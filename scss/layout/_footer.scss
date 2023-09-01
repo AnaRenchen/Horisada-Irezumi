@@ -1,0 +1,22 @@
+//Estilos footer para todas las paginas
+
+footer {
+    background-color: #462510;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 0;
+
+    .footer_letter {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.8rem;
+        color: black;
+    }
+
+    .logo_insta {
+        width: 30px;
+        margin-right: 20px;
+    }
+    
+}

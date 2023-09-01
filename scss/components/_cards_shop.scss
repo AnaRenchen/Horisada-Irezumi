@@ -1,0 +1,26 @@
+//Estilos cards de articulos a la venta
+
+.row{
+    margin-bottom: 100px;
+
+    .col{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center; 
+
+        .card {
+            margin: 50px;
+
+            .card-body{
+
+                background-color: #b47b57;
+
+                .card-text {
+                    color: #462510;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+    }
+}
+}

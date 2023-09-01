@@ -1,0 +1,43 @@
+// Media query max-width: 1024px
+
+@media only screen and (max-width: 1024px) {
+    .portadas_galeria_contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    main{
+        .titulo_secciones {
+            margin-left: 20px;
+        }
+
+    }
+    
+
+    .contenedor_info {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+        .foto_santu_info {
+            margin-top: 30px;
+            margin-bottom: 40px;
+            width: 80%;
+        }
+    }
+
+
+    .grid_contacto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .contenedor_direccion {
+            margin-top: 70px;
+        }
+    }
+
+
+}

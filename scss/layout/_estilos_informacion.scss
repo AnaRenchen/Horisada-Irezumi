@@ -1,0 +1,42 @@
+
+
+.contenedor_info {
+    display: grid;
+    grid-template-columns: 50% 80%;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        'texto1 foto'
+        'texto2 foto';
+    margin-top: 30px;
+    margin-bottom: 100px;
+    background-color: #a26238;
+
+    .textos_pagina_info1 {
+        grid-area: texto1;
+    }    
+
+    .textos_pagina_info2 {
+        grid-area: texto2;
+    }
+
+    .foto_santu_info {
+        width: 60%;
+        grid-area: foto;
+        justify-items: center;
+        align-self: center;
+    }
+
+    .textos_pagina_info1,
+    .textos_pagina_info2 {
+    color: black;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    margin: 4rem 2rem 4rem 2rem;
+   
+}
+
+}
