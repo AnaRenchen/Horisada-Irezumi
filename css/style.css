@@ -253,7 +253,6 @@ main .textos_pagina_contacto {
   line-height: 1.5;
   margin-top: 20px;
   margin-bottom: 20px;
-  display: flex;
   text-align: justify;
   margin: 50px;
 }
@@ -377,6 +376,7 @@ main .textos_pagina_contacto {
   cursor: pointer;
   padding: 5px 15px;
   float: right;
+  transition: 0.5s;
 }
 .grid_contacto .formulario button[type=submit]:hover {
   background-color: antiquewhite;
