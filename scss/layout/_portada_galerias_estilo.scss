@@ -1,3 +1,11 @@
+//Estilos portadas de las galerias
+
+@mixin margenes_portadas_galerias(){
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
 .portadas_galeria_contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -10,54 +18,56 @@
         'backpiece mangas otros'
         'backpiece mangas otros';
 
+        //Estilos de las portadas de las secciones de la galeria
 
         .disposicion_portadas_galeria_backpiece {
             grid-area: backpiece;
+            @include margenes_portadas_galerias();
+            a{
+                text-decoration: none;
+            }
         }
 
         .disposicion_portadas_galeria_mangas {
             grid-area: mangas;
+            @include margenes_portadas_galerias();
+            a{
+                text-decoration: none;
+            }
         }
 
         .disposicion_portadas_galeria_otros {
             grid-area: otros;
+            @include margenes_portadas_galerias();
+            a{
+                text-decoration: none;
+            }
         }
     
-    .portada_galeria {
-        width: 80%;
-        margin-left: 30px;
-        margin-right: 30px;
-        border: solid #462510;
-        border-radius: 10px;
-        background-color: #a26238;
-        align-items: center;
+         .portada_galeria {
+          width: 80%;
+          margin-left: 30px;
+          margin-right: 30px;
+          border: solid #462510;
+          border-radius: 10px;
+          background-color: #a26238;
+          align-items: center;
 
-        &:hover {
+          &:hover {
             padding: 5px;
+         }
+        }
+         .descripcion_portadas {
+          font-size: 1.3rem;
+          color: #a26238;
+          font-family: $fuente_pagina_titulos;
+          text-align: center;
+          margin-top: 5px;
+          letter-spacing: 0.1em;
+
+         &:hover {
+         color: #dc9e79;
+         }
+        }
     }
-}
-.descripcion_portadas {
-font-size: 1.3rem;
-color: #a26238;
-font-family: 'Times New Roman', Times, serif;
-text-align: center;
-margin-top: 5px;
-letter-spacing: 0.1em;
 
-&:hover {
-    color: #dc9e79;
-}
-}
-//Estilos de las portadas de las secciones de la galeria
-
-.disposicion_portadas_galeria_backpiece,
-.disposicion_portadas_galeria_mangas,
-.disposicion_portadas_galeria_otros {
-margin-top: 20px;
-margin-bottom: 50px;
-
-a{
-    text-decoration: none;
-}
-}
-}

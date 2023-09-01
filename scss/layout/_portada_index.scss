@@ -22,7 +22,7 @@
         .titulo_pagina {
             color: #debeab;
             font-size: 1.5rem;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: $fuente_pagina_titulos;
             letter-spacing: 0.1em;
             font-weight: lighter;
             line-height: 1.2;
@@ -38,7 +38,7 @@
         }
         .descripcion_inicio {
             color: #a26238;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: $fuente_pagina_titulos;
             font-size: 1rem;
             letter-spacing: 0.1em;
             line-height: 1.2;

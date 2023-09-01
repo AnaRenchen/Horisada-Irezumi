@@ -10,14 +10,6 @@
         padding: 20px;
         border: 0.2rem solid #5c3011;
 
-        .subtitulo_formulario {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 2rem;
-            color: #a26238;
-            line-height: 2;
-            font-weight: 500;
-            text-align: center;
-        }
         
         input,
         textarea {
@@ -31,7 +23,7 @@
         }
         
         label {
-            font-family: 'Times New Roman', Times, serif;
+            font-family: $fuente_pagina_titulos;
             color: #a26238;
             font-size: 1rem;
             padding: 10px 10px 10px 0;
@@ -46,7 +38,7 @@
             color: black;
             background-color: white;
             border-radius: 4px;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: $fuente_pagina_titulos;
             font-weight: 500;
             cursor: pointer;
             padding: 5px 15px;
