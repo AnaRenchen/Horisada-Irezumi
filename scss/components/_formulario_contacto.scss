@@ -39,7 +39,7 @@
             background-color: white;
             border-radius: 4px;
             font-family: $fuente_pagina_titulos;
-            font-weight: 500;
+            font-weight: 600;
             cursor: pointer;
             padding: 5px 15px;
             float: right;
@@ -47,6 +47,7 @@
 
             &:hover {
                 background-color: antiquewhite;
+                transition:0.5s;
             }
         }
     }

@@ -49,6 +49,13 @@ main{
     .logo_insta_contacto {
         width: 100px;
         margin-bottom: 20px;  
+        transition: 0.8s;
+
+        &:hover{
+            transform: scale(1.5);
+            transition: 0.8s;
+        }
+        
     }
 
     .direccion_logo{
