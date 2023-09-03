@@ -1,36 +1,49 @@
 //Estilos de las secciones de la Galeria
 
-.carousel{
-    margin: auto;
+@mixin estilo_subtitulos_galerias(){
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    font-family: $fuente_pagina_titulos;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 
-#backpiece, #mangas, #otros  {
-    .subtitulos_galerias {
-        font-size: 2.5rem;
-        color: black;
-        font-weight: 600;
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-        margin-top: 50px;
-        margin-bottom: 80px;
-    }
-
-
-}
-#backpiece {
-    background-color: #b47b57;
+@mixin fondo_galerias($background-color){
+    background-color: $background-color;
     padding: 80px;
     padding-top: 20px;
+}
+
+
+.carousel{
+    margin: auto;
+
+}
+
+
+#backpiece {
+    @include fondo_galerias(#b47b57);
+
+    .subtitulos_galerias{
+
+        @include estilo_subtitulos_galerias();
+    }
 }
 
 #mangas {
-    background-color: #c59476;
-    padding: 80px;
-    padding-top: 20px;
+  @include fondo_galerias(#c59476);
+
+    .subtitulos_galerias{
+        @include estilo_subtitulos_galerias();
+    }
 }
 
 #otros {
-    background-color: #d5ae97;
-    padding: 80px;
-    padding-top: 20px;
+    @include fondo_galerias(#d5ae97);
+
+    .subtitulos_galerias{
+        @include estilo_subtitulos_galerias();
+    }
 }

@@ -1,10 +1,12 @@
+
+
 //Estilos titulos de todas las paginas
 
 main{
 .titulo_secciones {
     font-size: 2rem;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $fuente_pagina_titulos;
     font-weight: lighter;
     letter-spacing: 0.1em;
     text-align: center;

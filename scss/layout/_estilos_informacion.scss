@@ -1,4 +1,15 @@
+//Estilos pagina información
 
+@mixin textos_informacion(){
+    color: black;
+    font-weight: 500;
+    font-family: $fuente_pagina_titulos;
+    text-align: justify;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    margin: 4rem 2rem 4rem 2rem;
+}
 
 .contenedor_info {
     display: grid;
@@ -13,10 +24,12 @@
 
     .textos_pagina_info1 {
         grid-area: texto1;
+        @include textos_informacion();
     }    
 
     .textos_pagina_info2 {
         grid-area: texto2;
+        @include textos_informacion();
     }
 
     .foto_santu_info {
@@ -26,17 +39,6 @@
         align-self: center;
     }
 
-    .textos_pagina_info1,
-    .textos_pagina_info2 {
-    color: black;
-    font-weight: 500;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    font-size: 1rem;
-    letter-spacing: 0.1em;
-    line-height: 1.5;
-    margin: 4rem 2rem 4rem 2rem;
-   
-}
+  
 
 }

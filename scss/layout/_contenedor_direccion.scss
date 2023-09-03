@@ -1,5 +1,16 @@
 //Estilos apartado Direccion
 
+//Mixin subtitulo  direccion y contacto
+
+@mixin textos_contacto(){
+    font-family: $fuente_pagina_titulos;
+    font-size: 2rem;
+    color: #a26238;
+    font-weight: 500;
+    line-height: 2;
+    text-align: center;
+}
+
 .contenedor_direccion {
     grid-area: direccion;
     justify-self: center;
@@ -10,16 +21,11 @@
     margin-right: 50px;
 
     .subtitulo_direccion {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 2rem;
-        color: #a26238;
-        font-weight: 500;
-        line-height: 2;
-        text-align: center;
-    
+       @include textos_contacto()
+
     }
     .texto_direccion {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: $fuente_pagina_titulos;
         font-size: 1rem;
         line-height: 1.5rem;
         color: #a26238;
@@ -27,4 +33,13 @@
         margin-bottom: 20px;
         flex-wrap: wrap;
     }
+
 }
+
+.formulario{
+    .subtitulo_formulario {
+
+        @include textos_contacto();
+
+         }
+        }

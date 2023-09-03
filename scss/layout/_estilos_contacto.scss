@@ -21,7 +21,7 @@
 main{
     .textos_pagina_contacto {
         color: #a26238;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: $fuente_pagina_titulos;
         font-size: 1rem;
         letter-spacing: 0.1em;
         line-height: 1.5;
@@ -49,6 +49,13 @@ main{
     .logo_insta_contacto {
         width: 100px;
         margin-bottom: 20px;  
+        transition: 0.8s;
+
+        &:hover{
+            transform: scale(1.5);
+            transition: 0.8s;
+        }
+        
     }
 
     .direccion_logo{
@@ -59,7 +66,7 @@ main{
     
     .location_bottom{
         font-size: 1rem;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: $fuente_pagina_titulos;
         color: white;
         margin-bottom: 50px;
     
