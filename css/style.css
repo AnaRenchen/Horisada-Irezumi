@@ -25,6 +25,10 @@ header {
 }
 header img {
   width: 6rem;
+  transition: transform 0.5s ease;
+}
+header img:hover {
+  transform: scale(1.05);
 }
 header .navbar .bg-santi {
   background-color: #5c3011;
@@ -102,6 +106,11 @@ footer .footer_letter {
 footer .logo_insta {
   width: 30px;
   margin-right: 20px;
+  transition: 0.8s;
+}
+footer .logo_insta:hover {
+  transform: scale(1.3);
+  transition: 0.8s;
 }
 
 .portadas_galeria_contenedor {
@@ -145,6 +154,7 @@ footer .logo_insta {
   border-radius: 10px;
   background-color: #a26238;
   align-items: center;
+  transition: 0.8s;
 }
 .portadas_galeria_contenedor .portada_galeria:hover {
   padding: 5px;
@@ -230,7 +240,7 @@ footer .logo_insta {
   grid-template-areas: "texto1 foto" "texto2 foto";
   margin-top: 30px;
   margin-bottom: 100px;
-  background-color: #a26238;
+  background-image: linear-gradient(to bottom, #a26238, #5c3011);
 }
 .contenedor_info .textos_pagina_info1 {
   grid-area: texto1;
@@ -241,7 +251,7 @@ footer .logo_insta {
   font-size: 1rem;
   letter-spacing: 0.1em;
   line-height: 1.5;
-  margin: 4rem 2rem 4rem 2rem;
+  margin: 4rem 2rem;
 }
 .contenedor_info .textos_pagina_info2 {
   grid-area: texto2;
@@ -252,7 +262,7 @@ footer .logo_insta {
   font-size: 1rem;
   letter-spacing: 0.1em;
   line-height: 1.5;
-  margin: 4rem 2rem 4rem 2rem;
+  margin: 4rem 2rem;
 }
 .contenedor_info .foto_santu_info {
   width: 60%;
@@ -440,7 +450,7 @@ main .textos_pagina_contacto {
   }
   .contenedor_info .foto_santu_info {
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     width: 80%;
   }
   .grid_contacto {
