@@ -25,10 +25,10 @@ header {
 }
 header img {
   width: 6rem;
-  transition: transform 0.5s ease;
+  transition: transform 0.8s ease;
 }
 header img:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 header .navbar .bg-santi {
   background-color: #5c3011;
@@ -47,6 +47,14 @@ header .navbar .nav-link:hover {
   color: #dc9e79;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .contenedor_index {
   display: flex;
   flex-wrap: wrap;
@@ -65,6 +73,7 @@ header .navbar .nav-link:hover {
   width: 7.8rem;
   margin-top: 40px;
   margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 .contenedor_index .items_index .titulo_pagina {
   color: #debeab;
@@ -434,16 +443,6 @@ main .textos_pagina_contacto {
 }
 
 @media only screen and (max-width: 1024px) {
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
   .portadas_galeria_contenedor {
     display: flex;
     flex-direction: column;
@@ -468,13 +467,8 @@ main .textos_pagina_contacto {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .grid_contacto .formulario {
-    opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
-  }
   .grid_contacto .contenedor_direccion {
     margin-top: 70px;
-    animation: fadeIn 1s ease-in-out forwards;
   }
 }
 @media only screen and (max-width: 768px) {
