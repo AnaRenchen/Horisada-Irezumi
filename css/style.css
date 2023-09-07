@@ -434,6 +434,16 @@ main .textos_pagina_contacto {
 }
 
 @media only screen and (max-width: 1024px) {
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   .portadas_galeria_contenedor {
     display: flex;
     flex-direction: column;
@@ -458,8 +468,13 @@ main .textos_pagina_contacto {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .grid_contacto .formulario {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
   .grid_contacto .contenedor_direccion {
     margin-top: 70px;
+    animation: fadeIn 1s ease-in-out forwards;
   }
 }
 @media only screen and (max-width: 768px) {
