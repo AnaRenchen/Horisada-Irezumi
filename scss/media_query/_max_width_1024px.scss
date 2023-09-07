@@ -2,18 +2,6 @@
 
 @media only screen and (max-width: 1024px) {
 
-    @keyframes fadeIn {  
-        from {  
-            opacity:0;
-            transform: translateY(50px);
-        }  
-     
-        to {  
-            opacity:1; 
-            transform: translateY(0);
-        }  
-     }
-
     .portadas_galeria_contenedor {
         display: flex;
         flex-direction: column;
@@ -47,14 +35,9 @@
         flex-wrap: wrap;
         justify-content: center;
 
-        .formulario {
-            opacity: 0;
-            animation: fadeIn 1s ease-in-out forwards; 
-        }
-
         .contenedor_direccion {
             margin-top: 70px;
-            animation: fadeIn 1s ease-in-out forwards; 
+            
         }
     }
 
