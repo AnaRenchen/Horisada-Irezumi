@@ -23,7 +23,7 @@
         .disposicion_portadas_galeria_backpiece {
             grid-area: backpiece;
             @include margenes_portadas_galerias();
-            a{
+            .link_portada_backpiece{
                 text-decoration: none;
             }
         }
@@ -31,7 +31,7 @@
         .disposicion_portadas_galeria_mangas {
             grid-area: mangas;
             @include margenes_portadas_galerias();
-            a{
+            .link_portada_mangas{
                 text-decoration: none;
             }
         }
@@ -39,7 +39,7 @@
         .disposicion_portadas_galeria_otros {
             grid-area: otros;
             @include margenes_portadas_galerias();
-            a{
+            .link_portada_otros{
                 text-decoration: none;
             }
         }

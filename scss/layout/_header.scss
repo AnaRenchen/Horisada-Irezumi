@@ -6,7 +6,7 @@ header {
 
     img{
         width: 6rem; 
-        transition: transform 0.8s ease;
+        transition: transform 0.8s ease-in-out;
 
         &:hover {
             transform: scale(1.08);
@@ -21,7 +21,7 @@ header {
         
         .navbar-nav {
             margin-left: auto;
-        }
+        
             .nav-link{
                 color: white;
                 text-decoration: none;
@@ -34,5 +34,6 @@ header {
                 }
             }
     
-}
+        }
+     }
 }
