@@ -1,8 +1,6 @@
 //Formulario pagina contacto
 
 
-
-
 .grid_contacto{
 
     .formulario {
@@ -14,8 +12,8 @@
         border: 0.2rem solid #5c3011;
 
         
-        input,
-        textarea {
+        input
+        {
             display: flex;
             flex-wrap: wrap;
             background-color: white;
@@ -23,6 +21,10 @@
             border: solid black;
             width: 100%;
             padding: 12px;
+        }
+
+        textarea {
+            @extend input;
         }
         
         label {
@@ -34,7 +36,6 @@
         
         .button {
             margin: 15px;
-        }
         
         button[type=submit] {
             border: none;
@@ -53,6 +54,8 @@
                 transition:0.5s;
             }
         }
+    
+      }
     }
 }
 

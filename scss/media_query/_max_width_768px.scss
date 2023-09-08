@@ -7,17 +7,16 @@
 
     .navbar-nav {
         background-color: black;
-    }
 
     .nav-link {
         border-bottom: solid white;
 
         &:hover {
             color: #dc9e79;
-        }
-    }
-        
-    }
+         }
+     }
+  }
+ }
 
     .contenedor_index {
         margin-top: 60px;
@@ -41,6 +40,8 @@
     }
 
 .contenedor_direccion{
+ margin-right: 0;
+
     .textos_pagina_info1,
     .textos_pagina_info2 {
         margin: 1rem;
@@ -50,10 +51,6 @@
         margin: 1.5rem;
     }
 }
-    .contenedor_direccion {
-        margin-right: 0;
-    }
-
-
+    
 }
 

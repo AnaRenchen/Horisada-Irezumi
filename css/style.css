@@ -25,7 +25,7 @@ header {
 }
 header img {
   width: 6rem;
-  transition: transform 0.8s ease;
+  transition: transform 0.8s ease-in-out;
 }
 header img:hover {
   transform: scale(1.08);
@@ -36,14 +36,14 @@ header .navbar .bg-santi {
 header .navbar .navbar-nav {
   margin-left: auto;
 }
-header .navbar .nav-link {
+header .navbar .navbar-nav .nav-link {
   color: white;
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
   margin: 0.8rem;
 }
-header .navbar .nav-link:hover {
+header .navbar .navbar-nav .nav-link:hover {
   color: #dc9e79;
 }
 
@@ -115,7 +115,7 @@ footer .footer_letter {
 footer .logo_insta {
   width: 30px;
   margin-right: 20px;
-  transition: 0.8s;
+  transition: 0.8s ease-in-out;
 }
 footer .logo_insta:hover {
   transform: scale(1.3);
@@ -136,7 +136,7 @@ footer .logo_insta:hover {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.portadas_galeria_contenedor .disposicion_portadas_galeria_backpiece a {
+.portadas_galeria_contenedor .disposicion_portadas_galeria_backpiece .link_portada_backpiece {
   text-decoration: none;
 }
 .portadas_galeria_contenedor .disposicion_portadas_galeria_mangas {
@@ -144,7 +144,7 @@ footer .logo_insta:hover {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.portadas_galeria_contenedor .disposicion_portadas_galeria_mangas a {
+.portadas_galeria_contenedor .disposicion_portadas_galeria_mangas .link_portada_mangas {
   text-decoration: none;
 }
 .portadas_galeria_contenedor .disposicion_portadas_galeria_otros {
@@ -152,7 +152,7 @@ footer .logo_insta:hover {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.portadas_galeria_contenedor .disposicion_portadas_galeria_otros a {
+.portadas_galeria_contenedor .disposicion_portadas_galeria_otros .link_portada_otros {
   text-decoration: none;
 }
 .portadas_galeria_contenedor .portada_galeria {
@@ -320,7 +320,7 @@ main .textos_pagina_contacto {
 .instagram_contacto .logo_insta_contacto {
   width: 100px;
   margin-bottom: 20px;
-  transition: 0.8s;
+  transition: 0.8s ease;
 }
 .instagram_contacto .logo_insta_contacto:hover {
   transform: scale(1.5);
@@ -401,8 +401,7 @@ main .textos_pagina_contacto {
   padding: 20px;
   border: 0.2rem solid #5c3011;
 }
-.grid_contacto .formulario input,
-.grid_contacto .formulario textarea {
+.grid_contacto .formulario input, .grid_contacto .formulario textarea {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
@@ -420,7 +419,7 @@ main .textos_pagina_contacto {
 .grid_contacto .formulario .button {
   margin: 15px;
 }
-.grid_contacto .formulario button[type=submit] {
+.grid_contacto .formulario .button button[type=submit] {
   border: none;
   color: black;
   background-color: white;
@@ -432,7 +431,7 @@ main .textos_pagina_contacto {
   float: right;
   transition: 0.5s;
 }
-.grid_contacto .formulario button[type=submit]:hover {
+.grid_contacto .formulario .button button[type=submit]:hover {
   background-color: antiquewhite;
   transition: 0.5s;
 }
@@ -475,10 +474,10 @@ main .textos_pagina_contacto {
   .navbar .navbar-nav {
     background-color: black;
   }
-  .navbar .nav-link {
+  .navbar .navbar-nav .nav-link {
     border-bottom: solid white;
   }
-  .navbar .nav-link:hover {
+  .navbar .navbar-nav .nav-link:hover {
     color: #dc9e79;
   }
   .contenedor_index {
@@ -497,15 +496,15 @@ main .textos_pagina_contacto {
   footer .footer_letter {
     margin-bottom: 10px;
   }
+  .contenedor_direccion {
+    margin-right: 0;
+  }
   .contenedor_direccion .textos_pagina_info1,
   .contenedor_direccion .textos_pagina_info2 {
     margin: 1rem;
   }
   .contenedor_direccion .textos_pagina_contacto {
     margin: 1.5rem;
-  }
-  .contenedor_direccion {
-    margin-right: 0;
   }
 }
 
