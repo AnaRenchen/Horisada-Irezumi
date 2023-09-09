@@ -1,16 +1,14 @@
 //Estilos cards de articulos a la venta
 
-.row{
-    margin-bottom: 100px;
+.container_cards{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
 
-    .col{
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        align-items: center; 
-
-        .card {
-            margin: 50px;
+    .card{
+    
+        margin: 50px;
 
             .card-body{
 
@@ -22,5 +20,5 @@
                 }
             }
     }
-}
+
 }

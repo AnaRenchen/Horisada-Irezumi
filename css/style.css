@@ -373,22 +373,19 @@ main .textos_pagina_contacto {
   text-align: center;
 }
 
-.row {
-  margin-bottom: 100px;
-}
-.row .col {
+.container_cards {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
   align-items: center;
 }
-.row .col .card {
+.container_cards .card {
   margin: 50px;
 }
-.row .col .card .card-body {
+.container_cards .card .card-body {
   background-color: #b47b57;
 }
-.row .col .card .card-body .card-text {
+.container_cards .card .card-body .card-text {
   color: #462510;
   font-family: "Times New Roman", Times, serif;
 }
