@@ -1,19 +1,26 @@
 // Estilos pagina shop
 
-
-//Estilo texto shop
-.textos_pagina_shop {
+@mixin textos_shop(){
     text-align: center;
     color: #a26238;
     font-family: $fuente_pagina_titulos;
     font-size: 1rem;
     letter-spacing: 0.1em;
     line-height: 1.5;
+}
+//Estilo texto shop
+.textos_pagina_shop {
+ @include textos_shop();
     margin-top: 20px;
+    margin-bottom: 0px;
+
 
     .hover_mail:hover{
         color:white;
         
     }
- 
+}
+
+.textos_pagina_shop2{
+    @include textos_shop();
 }

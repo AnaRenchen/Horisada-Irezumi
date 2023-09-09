@@ -8,7 +8,7 @@
 
     .card{
     
-        margin: 50px;
+        margin: 30px;
 
             .card-body{
 
@@ -17,6 +17,22 @@
                 .card-text {
                     color: #462510;
                     font-family: $fuente_pagina_titulos;
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+
+                .tamaño_pintura{
+                    color: #462510;
+                    font-family: $fuente_pagina_titulos;
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+
+                .precio{
+                    color: #462510;
+                    font-family: $fuente_pagina_titulos;
+                    text-align: center;
+                    margin-bottom: 0px;
                 }
             }
     }

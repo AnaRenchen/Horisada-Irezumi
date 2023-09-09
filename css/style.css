@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -237,9 +238,19 @@ footer .logo_insta:hover {
   letter-spacing: 0.1em;
   line-height: 1.5;
   margin-top: 20px;
+  margin-bottom: 0px;
 }
 .textos_pagina_shop .hover_mail:hover {
   color: white;
+}
+
+.textos_pagina_shop2 {
+  text-align: center;
+  color: #a26238;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
 }
 
 .contenedor_info {
@@ -380,7 +391,7 @@ main .textos_pagina_contacto {
   align-items: center;
 }
 .container_cards .card {
-  margin: 50px;
+  margin: 30px;
 }
 .container_cards .card .card-body {
   background-color: #b47b57;
@@ -388,6 +399,20 @@ main .textos_pagina_contacto {
 .container_cards .card .card-body .card-text {
   color: #462510;
   font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.container_cards .card .card-body .tamaño_pintura {
+  color: #462510;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.container_cards .card .card-body .precio {
+  color: #462510;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 .grid_contacto .formulario {
