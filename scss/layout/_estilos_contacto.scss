@@ -18,17 +18,32 @@
 
 //Estilo de la etiqueta p para contacto
 
+@mixin textos_contacto(){
+    color: #a26238;
+    font-family: $fuente_pagina_titulos;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    text-align: center;
+   
+}
+
+
 main{
     .textos_pagina_contacto {
-        color: #a26238;
-        font-family: $fuente_pagina_titulos;
-        font-size: 1rem;
-        letter-spacing: 0.1em;
-        line-height: 1.5;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: justify;
-        margin: 50px;
+    @include textos_contacto();
+    margin-top: 20px;
+    margin-bottom: 0px;
+    }
+
+    .textos_pagina_contacto2{
+    @include textos_contacto();
+    margin-bottom: 0px;
+    }
+
+    .textos_pagina_contacto3{
+    @include textos_contacto();
+    margin-bottom: 20px;;
     }
 }
 

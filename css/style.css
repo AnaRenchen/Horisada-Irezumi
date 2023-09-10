@@ -310,10 +310,27 @@ main .textos_pagina_contacto {
   font-size: 1rem;
   letter-spacing: 0.1em;
   line-height: 1.5;
+  text-align: center;
   margin-top: 20px;
+  margin-bottom: 0px;
+}
+main .textos_pagina_contacto2 {
+  color: #a26238;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 0px;
+}
+main .textos_pagina_contacto3 {
+  color: #a26238;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-align: center;
   margin-bottom: 20px;
-  text-align: justify;
-  margin: 50px;
 }
 
 /** Estilos Instagram bottom contactos**/
