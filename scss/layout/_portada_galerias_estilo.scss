@@ -9,7 +9,7 @@
 .portadas_galeria_contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 16rem 16rem;
+    grid-template-rows: auto auto;
     justify-items: center;
     align-items: bottom;
     text-align: center;

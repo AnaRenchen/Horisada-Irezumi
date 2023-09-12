@@ -10,7 +10,7 @@
 }
 
 main .titulo_secciones {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: white;
   font-family: "Times New Roman", Times, serif;
   font-weight: lighter;
@@ -41,7 +41,7 @@ header .navbar .navbar-nav .nav-link {
   color: white;
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 0.8rem;
 }
 header .navbar .navbar-nav .nav-link:hover {
@@ -62,6 +62,7 @@ header .navbar .navbar-nav .nav-link:hover {
   justify-content: center;
   justify-items: center;
   align-content: center;
+  background-color: black;
 }
 .contenedor_index .items_index {
   flex-wrap: wrap;
@@ -71,14 +72,14 @@ header .navbar .navbar-nav .nav-link:hover {
   text-align: center;
 }
 .contenedor_index .items_index .logo_inicio {
-  width: 7.8rem;
+  width: 10rem;
   margin-top: 40px;
   margin-bottom: 20px;
   animation: fadeIn 2s ease-in-out forwards;
 }
 .contenedor_index .items_index .titulo_pagina {
   color: #debeab;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 0.1em;
   font-weight: lighter;
@@ -87,7 +88,7 @@ header .navbar .navbar-nav .nav-link:hover {
 .contenedor_index .items_index .sutitulo_pagina {
   color: #a26238;
   font-family: "Sawarabi Mincho", serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
   letter-spacing: 0.3em;
   line-height: 1.2;
@@ -95,7 +96,7 @@ header .navbar .navbar-nav .nav-link:hover {
 .contenedor_index .items_index .descripcion_inicio {
   color: #a26238;
   font-family: "Times New Roman", Times, serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   letter-spacing: 0.1em;
   line-height: 1.2;
 }
@@ -126,7 +127,7 @@ footer .logo_insta:hover {
 .portadas_galeria_contenedor {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 16rem 16rem;
+  grid-template-rows: auto auto;
   justify-items: center;
   align-items: bottom;
   text-align: center;
@@ -289,6 +290,7 @@ footer .logo_insta:hover {
   grid-area: foto;
   justify-items: center;
   align-self: center;
+  object-fit: cover;
 }
 
 .grid_contacto {
@@ -476,7 +478,7 @@ main .textos_pagina_contacto3 {
 }
 
 .contenedor_mapa iframe {
-  max-width: 100%;
+  width: 100%;
   max-height: 100%;
 }
 
