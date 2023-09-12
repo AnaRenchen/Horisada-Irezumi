@@ -19,6 +19,7 @@
     justify-items: center;
     align-content: center;
     background-color: black;
+    min-height: 100vh;
 
     .items_index {
         flex-wrap: wrap;
@@ -28,7 +29,7 @@
         text-align: center;
 
         .logo_inicio {
-            width: 10rem;
+            width: 8rem;
             margin-top: 40px;
             margin-bottom: 20px;
             animation: fadeIn 2s ease-in-out forwards; 
@@ -36,11 +37,12 @@
         }
         .titulo_pagina {
             color: #debeab;
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-family: $fuente_pagina_titulos;
             letter-spacing: 0.1em;
             font-weight: lighter;
             line-height: 1.2;
+            margin-top: 0;
         }
 
         .sutitulo_pagina {
