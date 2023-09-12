@@ -62,7 +62,8 @@ header .navbar .navbar-nav .nav-link:hover {
   justify-items: center;
   align-content: center;
   background-color: black;
-  min-height: 100vh;
+  margin-top: 50px;
+  min-height: 80vh;
 }
 .contenedor_index .items_index {
   flex-wrap: wrap;
@@ -73,7 +74,6 @@ header .navbar .navbar-nav .nav-link:hover {
 }
 .contenedor_index .items_index .logo_inicio {
   width: 8rem;
-  margin-top: 40px;
   margin-bottom: 20px;
   animation: fadeIn 2s ease-in-out forwards;
 }
