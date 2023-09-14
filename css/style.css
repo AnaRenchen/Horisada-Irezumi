@@ -371,7 +371,7 @@ main .textos_pagina_contacto3 {
 .contenedor_direccion {
   grid-area: direccion;
   justify-self: center;
-  align-self: center;
+  align-self: self-start;
   background-color: black;
   padding: 15px;
   border: 0.2rem solid #5c3011;
