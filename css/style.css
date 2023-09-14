@@ -515,7 +515,7 @@ main .textos_pagina_contacto3 {
 }
 @media only screen and (max-width: 768px) {
   header img:active {
-    transform: scale(4);
+    transform: scale(2);
   }
   header .navbar .navbar-nav {
     background-color: black;
