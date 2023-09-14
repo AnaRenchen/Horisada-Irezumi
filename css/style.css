@@ -409,6 +409,7 @@ main .textos_pagina_contacto3 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 .container_cards .card {
   margin: 30px;
@@ -513,13 +514,16 @@ main .textos_pagina_contacto3 {
   }
 }
 @media only screen and (max-width: 768px) {
-  .navbar .navbar-nav {
+  header img:active {
+    transform: scale(4);
+  }
+  header .navbar .navbar-nav {
     background-color: black;
   }
-  .navbar .navbar-nav .nav-link {
+  header .navbar .navbar-nav .nav-link {
     border-bottom: solid white;
   }
-  .navbar .navbar-nav .nav-link:hover {
+  header .navbar .navbar-nav .nav-link:hover {
     color: #dc9e79;
   }
   footer {
