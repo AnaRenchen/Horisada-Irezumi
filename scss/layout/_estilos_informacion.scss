@@ -26,11 +26,23 @@
     .textos_pagina_info1 {
         grid-area: texto1;
         @include textos_informacion();
+
+        .sumie{
+            font-style: italic;
+        }
+
+        .shinto{
+            @extend .sumie;
+        }
     }    
 
     .textos_pagina_info2 {
         grid-area: texto2;
         @include textos_informacion();
+
+        .free_hand{
+            font-style: italic;
+        }
     }
 
     .foto_santu_info {
@@ -41,6 +53,5 @@
         object-fit: cover;
     }
 
-  
 
 }

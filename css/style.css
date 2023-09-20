@@ -6,7 +6,7 @@
 }
 
 .body_color {
-  background-color: black;
+  background-color: black !important;
 }
 
 main .titulo_secciones {
@@ -275,6 +275,9 @@ footer .logo_insta:hover {
   line-height: 1.5;
   margin: 4rem 2rem;
 }
+.contenedor_info .textos_pagina_info1 .sumie, .contenedor_info .textos_pagina_info1 .shinto {
+  font-style: italic;
+}
 .contenedor_info .textos_pagina_info2 {
   grid-area: texto2;
   color: black;
@@ -285,6 +288,9 @@ footer .logo_insta:hover {
   letter-spacing: 0.1em;
   line-height: 1.5;
   margin: 4rem 2rem;
+}
+.contenedor_info .textos_pagina_info2 .free_hand {
+  font-style: italic;
 }
 .contenedor_info .foto_santu_info {
   width: 60%;
