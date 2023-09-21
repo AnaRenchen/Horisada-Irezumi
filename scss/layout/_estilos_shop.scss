@@ -24,3 +24,11 @@
 .textos_pagina_shop2{
     @include textos_shop();
 }
+
+//Flecha hacia arriba Shop
+
+.flecha_arriba{
+display: flex;
+justify-content:center;
+margin-bottom: 30px;
+}
