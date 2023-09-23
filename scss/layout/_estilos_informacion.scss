@@ -8,6 +8,8 @@
     letter-spacing: 0.1em;
     line-height: 1.5;
     margin: 4rem 2rem;
+    
+    
 }
 
 .contenedor_info {
@@ -20,11 +22,13 @@
     margin-top: 30px;
     margin-bottom: 100px;
     background-image: linear-gradient(to bottom, #a26238, #5c3011);
+    
    
 
     .textos_pagina_info1 {
         grid-area: texto1;
         @include textos_informacion();
+        margin-bottom: 0px;
 
         .sumie{
             font-style: italic;
@@ -38,6 +42,7 @@
     .textos_pagina_info2 {
         grid-area: texto2;
         @include textos_informacion();
+        margin-top: 50px;
 
         .free_hand{
             font-style: italic;

@@ -186,10 +186,12 @@ footer .logo_insta:hover {
 .carousel {
   margin: auto;
 }
+.carousel img {
+  margin-bottom: 50px;
+}
 
 #backpiece {
   background-color: #b47b57;
-  padding: 80px;
   padding-top: 20px;
 }
 #backpiece .subtitulos_galerias {
@@ -198,13 +200,12 @@ footer .logo_insta:hover {
   font-weight: 600;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 80px;
 }
 
 #mangas {
   background-color: #c59476;
-  padding: 80px;
   padding-top: 20px;
 }
 #mangas .subtitulos_galerias {
@@ -213,13 +214,12 @@ footer .logo_insta:hover {
   font-weight: 600;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 80px;
 }
 
 #otros {
   background-color: #d5ae97;
-  padding: 80px;
   padding-top: 20px;
 }
 #otros .subtitulos_galerias {
@@ -228,7 +228,7 @@ footer .logo_insta:hover {
   font-weight: 600;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 80px;
 }
 
@@ -279,6 +279,7 @@ footer .logo_insta:hover {
   letter-spacing: 0.1em;
   line-height: 1.5;
   margin: 4rem 2rem;
+  margin-bottom: 0px;
 }
 .contenedor_info .textos_pagina_info1 .sumie, .contenedor_info .textos_pagina_info1 .shinto {
   font-style: italic;
@@ -292,6 +293,7 @@ footer .logo_insta:hover {
   letter-spacing: 0.1em;
   line-height: 1.5;
   margin: 4rem 2rem;
+  margin-top: 50px;
 }
 .contenedor_info .textos_pagina_info2 .free_hand {
   font-style: italic;

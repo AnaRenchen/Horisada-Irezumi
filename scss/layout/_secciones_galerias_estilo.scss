@@ -6,19 +6,25 @@
     font-weight: 600;
     text-align: center;
     font-family: $fuente_pagina_titulos;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 80px;
 }
 
 @mixin fondo_galerias($background-color){
     background-color: $background-color;
-    padding: 80px;
     padding-top: 20px;
+
+   
 }
 
 
 .carousel{
     margin: auto;
+
+    img{
+        margin-bottom: 50px;
+    }
+   
 
 }
 
